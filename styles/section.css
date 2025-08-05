@@ -92,6 +92,16 @@ grid-area: weekly;
 #ai {
 grid-area: ai;
 
+header a {
+  justify-self: end;
+  align-items: center;}
+
+  span {
+    background-image: url(../assets/icon/ArrowRight.svg);
+    width: 16px;
+    height: 16px;
+  }
+
   img {
     width: 176px;
     aspect-ratio: 1/1;
@@ -111,6 +121,16 @@ aside {
 #more {
 
 margin-top: 32px;
+
+header a {
+  justify-self: end;
+  align-items: center;}
+
+  span {
+    background-image: url(../assets/icon/ArrowRight.svg);
+    width: 16px;
+    height: 16px;
+  }
 
   h3{
     margin-top: 8px;
