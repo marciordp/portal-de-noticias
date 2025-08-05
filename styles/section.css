@@ -3,6 +3,24 @@ border-top: 1px solid var(--stroke-color);
 padding-block: 12px 24px;
 font: var(--text-span);
 
+a {
+  gap: 8px;
+
+  justify-self: end;
+  align-items: center;
+
+ span {
+    background-image: url(../assets/icon/ArrowRight.svg);
+    width: 16px;
+    height: 16px;
+  } 
+
+  &:hover span {
+    background-image: url(../assets/icon/hover.svg);
+  }
+
+}
+
 }
 
 #featured {
@@ -97,12 +115,6 @@ header a {
   justify-self: end;
   align-items: center;}
 
-  span {
-    background-image: url(../assets/icon/ArrowRight.svg);
-    width: 16px;
-    height: 16px;
-  }
-
   img {
     width: 176px;
     aspect-ratio: 1/1;
@@ -127,11 +139,11 @@ header a {
   justify-self: end;
   align-items: center;}
 
-  span {
+  /* span {
     background-image: url(../assets/icon/ArrowRight.svg);
     width: 16px;
     height: 16px;
-  }
+  } */
 
   h3{
     margin-top: 8px;
